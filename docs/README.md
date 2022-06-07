@@ -5,7 +5,7 @@ heroText: 中商云前端技术团队
 tagline: ✨前端技术文档✨
 actions:
   - text: 开始使用
-    link: /zh/guide/getting-started.html
+    link: /statute/README.md
     type: primary
 
 features:

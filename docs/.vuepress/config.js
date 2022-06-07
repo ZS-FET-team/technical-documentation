@@ -11,6 +11,9 @@ module.exports = {
         home: "/",
         logo: '/logo.png', // 导航栏logo
         displayAllHeaders: true,// 显示所有页面的标题链接
+        editLink: false, //关闭在线编辑链接
+        lastUpdatedText:"更新时间",
+        contributorsText:"贡献者",
         // 页面搜索
         search: true,
         searchMaxSuggestions: 10,
@@ -19,8 +22,8 @@ module.exports = {
         sidebarDepth: "2",
         // 导航栏
         navbar: [
-            { text: '主页', link: '/' },
-            { text: '代码注释', link: '/annotation/' },
+            // { text: '主页', link: '/' },
+            // { text: '代码注释', link: '/annotation/' },
         ],
         // 侧边栏
         sidebar: [
