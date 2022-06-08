@@ -23,7 +23,7 @@ module.exports = {
     // 导航栏
     navbar: [
       { text: "主页", link: "/" },
-      { text: "代码规范文档", link: "/statute/README.md" },
+      { text: "前端", link: "/statute/README.md" },
     ],
     // 侧边栏
     sidebar: [
@@ -42,6 +42,7 @@ module.exports = {
           "/statute/README.md",
           "/naming/README.md",
           "/annotation/README.md",
+          "/git/README.md",
           "/html/README.md",
           "/css/README.md",
           "/JavaScript/README.md",

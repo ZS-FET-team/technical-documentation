@@ -9,21 +9,12 @@ actions:
     type: primary
 
 features:
-- title: HTML规范
-  details: 基于W3C、苹果开发者等官方文档，并结合团队日常业务需求以及团队在日常开发过程中总结提炼出的经验而约定。
-- title: CSS规范
-  details: 统一团队 CSS 代码书写和 SASS 预编译语言的语法风格，提供常用媒体查询语句和浏览器私有属性引用，并从业务层面统一规范常用模块的引用。
-- title: JavaScript 规范
-  details: 统一团队的 JS 语法风格和书写习惯，减少程序出错的概率，其中也包含了 ES6 的语法规范和最佳实践。
+  - title: 团队规范
+    details: 通过命名规范、注释规范、git版本管理、代码规范工具对前端开发过程中的代码进行约束，形成统一的团队代码风格。
+  - title: Vue规范
+    details: 中商云前端开发是基于Vue技术栈开发，目前阶段技术路线： Vue2 + webpack ，根据实际开发，总结出vue开发的规范。
+  - title: HTML CSS JS 规范
+    details: “前端三剑客” 通过对官网和大厂规范整理，结合公司前端团队项目开发中总结的经验，梳理出符合公司前端开发的规范
 
-- title: 图片规范
-  details: 了解各种图片格式特性，根据特性制定图片规范，包括但不限于图片的质量约定、图片引入方式、图片合并处理等。
-- title: 命名规范
-  details: 从 “目录命名”、“图片命名”、“ClassName” 命名等层面约定规范团队的命名习惯，增强团队代码的可读性。
-- title: Vue 规范
-  details: 统一团队的类 React 应用的语法规范，规范类 React 应用书写。
-
-footer: MIT Licensed | Copyright © 2022-2023 Evan You
+footer: MIT Licensed | Copyright © 2022-2023 Evan ZS-FET-team
 ---
-
-

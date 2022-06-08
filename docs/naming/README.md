@@ -22,7 +22,7 @@ next: /annotation/README.md
 - 不符合规范的缩写方式
   :::
 
-## 1. 项目命名
+## 项目命名
 
 ::: tip 提示
 全部采用小写方式，以中线分隔。
@@ -38,7 +38,7 @@ next: /annotation/README.md
 
 - `PetroleumMiniProgram`
 
-## 2.分支命名
+## 分支命名
 
 - `master` 为生产分支
 
@@ -55,9 +55,7 @@ next: /annotation/README.md
 
 :::
 
-## 3.git 提交命名
-
-## 4.目录命名
+## 目录命名
 
 ::: tip 提示
 
@@ -78,7 +76,7 @@ next: /annotation/README.md
 
 - `demo_docs`
 
-## 5.文件命名
+## 文件命名
 
 ::: tip 提示
 
@@ -98,7 +96,3 @@ next: /annotation/README.md
 - `companyLogo.png`
 
 - `company_logo.png`
-
-## 项目目录
-
-xxx/index.html
