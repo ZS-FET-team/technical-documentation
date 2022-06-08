@@ -43,6 +43,7 @@ module.exports = {
           "/naming/README.md",
           "/annotation/README.md",
           "/git/README.md",
+          "/picture/README.md",
           "/html/README.md",
           "/css/README.md",
           "/JavaScript/README.md",

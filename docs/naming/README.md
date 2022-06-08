@@ -4,6 +4,8 @@ prev: /statute/README.md
 next: /annotation/README.md
 ---
 
+## 命名严谨性
+
 ::: tip 正确命名方式
 
 - 英文拼写
@@ -37,23 +39,6 @@ next: /annotation/README.md
 - `petroleum_mini_program`
 
 - `PetroleumMiniProgram`
-
-## 分支命名
-
-- `master` 为生产分支
-
-- `dev` 为开发分支
-
-- `test` 为测试分支
-
-- `dev/个人` 为个人开发分支
-
-::: warning 注意
-
-- 个人进行项目开发时，需要再 dev 分支下建自己的分支
-- 开发工作完成后，再合并到开发分支
-
-:::
 
 ## 目录命名
 
@@ -96,3 +81,9 @@ next: /annotation/README.md
 - `companyLogo.png`
 
 - `company_logo.png`
+
+## 常用命名参考
+
+### 目录命名
+
+### 文件命名
