@@ -3,7 +3,7 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
     lang: 'zh-CN',
-    title: '前端技术团队',
+    title: '前端技术文档',
     description: '前端工作规范技术文档',
     head: [['link', { rel: 'icon', href: '/logo.png' }]],
     base: "/ZS-FET-team/",
@@ -22,26 +22,31 @@ module.exports = {
         sidebarDepth: "2",
         // 导航栏
         navbar: [
-            // { text: '主页', link: '/' },
-            // { text: '代码注释', link: '/annotation/' },
+            { text: '主页', link: '/' },
+            { text: '代码规范文档', link: '/statute/README.md' },
         ],
         // 侧边栏
         sidebar: [
+            // SidebarItem
             {
-                text: '代码注释规范',
-                link: '/annotation/',
-                children: [
-                    // SidebarItem
-                    {
-                        text: '代码',
-                        link: 'README.md',
-                        children: [],
-                    },
-                    // 字符串 - 页面文件路径
-                ],
+              text: '前端技术文档',
+              link: '/statute/README.md',
+              children: [
+                // SidebarItem
+                // {
+                //   text: 'github',
+                //   link: 'https://github.com',
+                //   children: [],
+                // },
+                // 字符串 - 页面文件路径
+                '/statute/README.md',
+                '/naming/README.md',
+                '/annotation/README.md',
+              ],
             },
-
-        ]
+            // 字符串 - 页面文件路径
+            // '/annotation/README.md',
+          ],
     }),
     plugins: [
         searchPlugin({

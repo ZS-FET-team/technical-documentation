@@ -4,11 +4,10 @@ prev: /naming/README.md
 next: /annotation/README.md
 ---
 
-## 注释规范
 
-### 1.HTML 
+## 1.HTML 
 
-#### 模块注释
+### 模块注释
 一般用于描述模块的名称以及模块开始与结束的位置
 
 推荐：
@@ -42,7 +41,7 @@ next: /annotation/README.md
 <!-- E Comment Text B -->
 ```
 
-#### 单行注释
+### 单行注释
 
 推荐：
 
@@ -60,7 +59,7 @@ next: /annotation/README.md
 </div>
 ```
 
-#### 嵌套注释
+### 嵌套注释
 
 ::: warning 注意
 当模块注释内再出现模块注释的时候，为了突出主要模块，嵌套模块不再使用
@@ -85,12 +84,12 @@ next: /annotation/README.md
 </div>
 <!-- E Comment Text A -->
 ```
-### 2.CSS
+## 2.CSS
 ::: warning 注意
 CSS注释不能嵌套
 ::: 
 
-#### 模块注释
+### 模块注释
 
 推荐：
 
@@ -114,7 +113,7 @@ CSS注释不能嵌套
 .mod_b {}
 ```
 
-#### 单行注释
+### 单行注释
 
 推荐
 
@@ -138,7 +137,7 @@ CSS注释不能嵌套
 }
 ```
 
-### 3.JavaScript
+## 3.JavaScript
 
 推荐
 
@@ -167,7 +166,7 @@ CSS注释不能嵌套
 }
 ```
 
-### 4.文件信息注释
+## 4.文件信息注释
 
 在样式文件编码声明 @charset 语句下面注明页面名称、作者、创建日期等信息
 

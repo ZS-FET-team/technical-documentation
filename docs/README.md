@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: 中商云前端技术团队
+heroText: 中商云技术团队
 tagline: ✨前端技术文档✨
 actions:
   - text: 开始使用

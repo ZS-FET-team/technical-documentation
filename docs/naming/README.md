@@ -3,7 +3,7 @@ title: 命名规范
 prev: /statute/README.md
 next: /annotation/README.md
 ---
-## 命名规范
+
 ::: tip 正确命名方式
 - 英文拼写
 - 遵循易于让阅读者理解的英文
@@ -22,7 +22,7 @@ next: /annotation/README.md
 :::
 
 
-### 1. 项目命名
+## 1. 项目命名
 
 ::: tip 提示
 全部采用小写方式，以中线分隔。
@@ -38,7 +38,7 @@ next: /annotation/README.md
 
 - `PetroleumMiniProgram`
 
-### 2.分支命名
+## 2.分支命名
 
 - `master`   为生产分支
 
@@ -55,10 +55,10 @@ next: /annotation/README.md
 
 :::
 
-### 3.git提交命名
+## 3.git提交命名
 
 
-### 4.目录命名
+## 4.目录命名
 
 ::: tip 提示
 - 全部采用小写方式， 以中划线分隔
@@ -78,7 +78,7 @@ next: /annotation/README.md
 
 - `demo_docs`
 
-### 5.文件命名
+## 5.文件命名
 
 ::: tip 提示
 - 全部采用小写方式， 以中划线分隔。
