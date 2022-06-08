@@ -358,6 +358,17 @@
     "@vuepress/utils" "2.0.0-beta.46"
     "vue" "^3.2.35"
 
+"@vuepress/plugin-toc@^2.0.0-beta.46":
+  "integrity" "sha512-BrsqRRBN+w/ZMCuP+b307GAoHzqYQ04ERAcGR/sSwhP/AXp+IqE+nMjEw7MOEgLQOR1Qho1kzz5gXwBTGxfWXw=="
+  "resolved" "https://registry.npmjs.org/@vuepress/plugin-toc/-/plugin-toc-2.0.0-beta.46.tgz"
+  "version" "2.0.0-beta.46"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.46"
+    "@vuepress/core" "2.0.0-beta.46"
+    "@vuepress/utils" "2.0.0-beta.46"
+    "vue" "^3.2.35"
+    "vue-router" "^4.0.15"
+
 "@vuepress/shared@2.0.0-beta.46":
   "integrity" "sha512-iqunwXZR3ea+36Cyz1QVP6F49CVhNxcYZFFxpSOi5Z5j9S4qiZm+fL931w8XHz70qpgwmfBFUOZBGqsMMLVuRg=="
   "resolved" "https://registry.npmjs.org/@vuepress/shared/-/shared-2.0.0-beta.46.tgz"

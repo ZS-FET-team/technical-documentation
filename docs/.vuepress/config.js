@@ -1,5 +1,9 @@
 const { defaultTheme } = require("@vuepress/theme-default");
 const { searchPlugin } = require("@vuepress/plugin-search");
+const { tocPlugin } = require("@vuepress/plugin-toc");
+const {
+  activeHeaderLinksPlugin,
+} = require("@vuepress/plugin-active-header-links");
 
 module.exports = {
   lang: "zh-CN",
@@ -65,6 +69,12 @@ module.exports = {
           placeholder: "搜索文档",
         },
       },
+    }),
+    tocPlugin({
+      // 配置项
+    }),
+    activeHeaderLinksPlugin({
+      // 配置项
     }),
   ],
 };
