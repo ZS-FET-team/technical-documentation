@@ -56,22 +56,7 @@ export default {
 }
 ```
 
-### 组件文件名为 pascal-case 格式
 
-推荐：
-
-```js
-components/
-|- my-component.vue
-```
-
-避免：
-
-```js
-components/
-|- myComponent.vue
-|- MyComponent.vue
-```
 
 ### 基础组件文件名
 
@@ -95,47 +80,7 @@ components/
 |- Icon.vue
 ```
 
-### 和父组件紧密耦合的子组件
 
-和父组件紧密耦合的子组件应该以父组件名作为前缀命名
-
-推荐：
-
-```js
-components/
-|- todo-list.vue
-|- todo-list-item.vue
-|- todo-list-item-button.vue
-|- user-profile-options.vue （完整单词）
-```
-
-避免：
-
-```js
-components/
-|- TodoList.vue
-|- TodoItem.vue
-|- TodoButton.vue
-|- UProfOpts.vue （使用了缩写）
-```
-
-### 在 Template 模版中使用组件
-
-在 Template 模版中使用组件，应使用 PascalCase 模式，并且使用自闭合组件。
-
-推荐：
-
-```html
-<!-- 在单文件组件、字符串模板和 JSX 中 -->
-<MyComponent />
-<Row><table :column="data" /></Row>
-```
-
-避免：
-
-```html
-<my-component /> <row><table :column="data" /></row>
-```
 
 ### 组件的 data 必须是一个函数
 
@@ -327,9 +272,6 @@ computed: {
 
 如果运行时，需要非常频繁地切换，使用 v-show ；如果在运行时，条件很少改变，使用 v-if。
 
-### script 标签内部结构顺序
-
-components > props > data > computed > watch > filter > 钩子函数（钩子函数按其执行顺序） > methods
 
 ### Vue Router 规范
 
@@ -447,7 +389,7 @@ vue 项目中的所有命名一定要与后端命名统一。
 
 ### 使用 Vue-cli 脚手架
 
-使用 vue-cli3 来初始化项目，项目名按照上面的命名规范。
+使用 vue-cli 来初始化项目，项目名按照上面的命名规范。
 
 ### 目录说明
 
@@ -469,7 +411,7 @@ src                                  源码目录
 |-- router                           路由，统一管理
 |-- store                            vuex, 统一管理
 |-- themes                           自定义样式主题
-|-- views                            视图目录
+|-- views/pages                            视图目录
 |   |-- role                                 role模块名
 |   |-- |-- role-list.vue                    role列表页面
 |   |-- |-- role-add.vue                     role新建页面
@@ -489,32 +431,7 @@ api 中的方法名字要与后端 api url 尽量保持语义高度一致性。
 
 对于 api 中的每个方法要添加注释，注释与后端 swagger 文档保持一致。
 
-推荐
 
-后端 url： EmployeeController.java
-
-```hash
-/employee/add
-/employee/delete/{id}
-/employee/update
-```
-
-前端： employee.js
-
-```js
-// 添加员工
-  addEmployee: (data) => {
-    return postAxios('/employee/add', data)
-  },
-  // 更新员工信息
-  updateEmployee: (data) => {
-    return postAxios('/employee/update', data)
-  },
-    // 删除员工
-  deleteEmployee: (employeeId) => {
-    return postAxios('/employee/delete/' + employeeId)
-   },
-```
 
 #### assets 目录
 
@@ -552,13 +469,13 @@ router 尽量按照 views 中的结构保持一致
 
 store 按照业务进行拆分不同的 js 文件
 
-#### views 目录
+#### views/pages 目录
 
 命名要与后端、router、api 等保持一致
 components 中组件要使用 PascalCase 规则
 
 ```hash
-|-- views                                    视图目录
+|-- views/pages                              视图目录
 |   |-- role                                 role模块名
 |   |   |-- role-list.vue                    role列表页面
 |   |   |-- role-add.vue                     role新建页面

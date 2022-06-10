@@ -6,6 +6,26 @@ next: /html/README.md
 
 ## 1.HTML
 
+### 嵌套注释
+
+::: warning 注意
+当模块注释内再出现模块注释的时候，为了突出主要模块，嵌套模块不再使用
+:::
+
+推荐：
+
+```html
+<!-- S Comment Text A -->
+<div class="mod_a">
+  <div class="mod_b">...</div>
+  <!-- /mod_b -->
+
+  <div class="mod_c">...</div>
+  <!-- /mod_c -->
+</div>
+<!-- E Comment Text A -->
+```
+
 ### 模块注释
 
 一般用于描述模块的名称以及模块开始与结束的位置
@@ -54,25 +74,6 @@ next: /html/README.md
 </div>
 ```
 
-### 嵌套注释
-
-::: warning 注意
-当模块注释内再出现模块注释的时候，为了突出主要模块，嵌套模块不再使用
-:::
-
-推荐：
-
-```html
-<!-- S Comment Text A -->
-<div class="mod_a">
-  <div class="mod_b">...</div>
-  <!-- /mod_b -->
-
-  <div class="mod_c">...</div>
-  <!-- /mod_c -->
-</div>
-<!-- E Comment Text A -->
-```
 
 ## 2.CSS
 
@@ -148,24 +149,4 @@ CSS 注释不能嵌套
 }
 ```
 
-不推荐
 
-```js
-
-//
-// 功能说明
-//
-//
- function() {
-   this._timeId = 0; // 重要注释
-}
-```
-
-## 4.文件信息注释
-
-在样式文件编码声明 @charset 语句下面注明页面名称、作者、创建日期等信息
-
-```html
-@charset "UTF-8"; /** * @desc File Info * @author Author Name * @date 2015-10-10
-*/
-```

@@ -20,13 +20,6 @@ HTML 中图片引入不需添加 width、height 属性，alt 属性应该写上
 <img src="" style="" />
 ```
 
-CSS 中图片引入不需要引号
-
-```css
-.zs {
-  background-image: url(icon.png);
-}
-```
 
 ## 图片格式
 

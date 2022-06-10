@@ -22,15 +22,12 @@ title: git 规范
 
 ### 临时分支
 
-feature 或 bug 开始的分支都属于临时分支，在通过测试并上线后需要将临时分支进行删除。避免 git 上出现太多无用的分支。
+在通过测试并上线后需要将临时分支进行删除。避免 git 上出现太多无用的分支。
 
 #### `feature` 为开发新功能分支
 
 当团队成员开发新功能时，需要从 dev 上拉一个 feature-功能名称-开发姓名 分支进行开发，例如：feature-login-zst。开发完成后需要合并回 dev 分支。
 
-#### `bug` 为修改 bug 分支
-
-当团队成员修改 bug 时，需要从有 bug 的分支（环境）上拉一个 bug-功能名称-开发姓名 分支进行修复，例如：bug-login-zst。修复完成后需要合并回原来出现 bug 的分支。
 
 ### 部署
 
@@ -40,9 +37,9 @@ feature 或 bug 开始的分支都属于临时分支，在通过测试并上线�
 
 git 在每次提交时，都需要填写 commit message。
 
-`git commit -m '类型type（影响范围scope）：描述subject' `
+`git commit -m '类型type ：描述subject' `
 
-`git commit -m 'feat（component）：增加头部导航功能' `
+`git commit -m 'feat ：增加头部导航功能' `
 
 ### type commit 的类型：
 
@@ -59,9 +56,6 @@ git 在每次提交时，都需要填写 commit message。
 - chore: 其他修改（不在上述类型中的修改）
 - release: 发布新版本
 
-### scope commit 的范围
-
-commit message 影响的功能或文件范围, 比如: route, component, utils, build...
 
 ### subject commit 的描述
 

@@ -91,7 +91,7 @@ collect 收集/aggregate 聚集
 推荐：
 
 ```js
-let str = "foo";
+let str = 'foo';
 let testDiv = '<div id="test"></div>';
 ```
 
@@ -129,41 +129,7 @@ user.city = 0;
 
 比如：箭头函数、await/async 、解构、let、for...of 等等
 
-## 括号
 
-下面关键字后必须有大括号（即使代码块内容只有一行）
-
-if,else,for,while,do,switch,try,catch,finally,with
-
-推荐：
-
-```js
-if (condition) {
-  doSomething();
-}
-```
-
-避免：
-
-```js
-if (condition) doSomething();
-```
-
-## undefined 判断
-
-永远不要直接使用 undefined 进行变量判断；使用 typeof 和字符串’undefined’对变量进行判断。
-
-推荐：
-
-```js
-if (typeof person === 'undefined') { ... }
-```
-
-避免：
-
-```js
-if (person === undefined) { ... }
-```
 
 ## 条件判断和循环最多三层
 
@@ -171,7 +137,7 @@ if (person === undefined) { ... }
 
 ## this 的转换命名
 
-对上下文 this 的引用只能使用"self"来命名
+对上下文 this 的引用只能使用"that"来命名
 
 ## 慎用 console.log
 
